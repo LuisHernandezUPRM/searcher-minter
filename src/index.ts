@@ -28,10 +28,10 @@ async function main() {
             chainId: CHAIN_ID,
             type: 2,
             value: ETHER / 100n * 3n,
-            data: "0x1249c58b",
+            data: "0xa0712d680000000000000000000000000000000000000000000000000000000000000001",
             maxFeePerGas: GWEI * 3n,
             maxPriorityFeePerGas: GWEI * 2n,
-            to: "0x20EE855E43A7af19E407E39E5110c2C1Ee41F64D"
+            to: "0xa3166FBe6d264592F7fef637f3fe2fce370890b3"
           },
           signer: wallet
         }
